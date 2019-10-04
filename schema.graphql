@@ -14,6 +14,7 @@ type Student {
 	id: ID!
 	firstName: String
 	lastName: String
+	fullName: String
 	password: String
 	collegeId: String
 	college: College

@@ -8,6 +8,7 @@ const Query = {
 }
 
 const Student={
-	college: root=> db.colleges.get(root.collegeId)
+	fullName: root=> `${root.firstName} ${root.lastName}`
+	, college: root=> db.colleges.get(root.collegeId)
 }
 module.exports = {Query, Student}
